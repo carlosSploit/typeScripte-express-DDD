@@ -1,6 +1,5 @@
 import mongoose from 'mongoose';
-//const MONGO_URI = process.env.MONGO_URI;
-const MONGO_URI = 'mongodb+srv://carloscertificacionprueba:Vb1m4iiR5P7Rfd8t@cluster0.90jlnx3.mongodb.net/certifique-moongosse?retryWrites=true&w=majority';
+const MONGO_URI = process.env.MONGO_URI;
 
 const Connetion = async () =>{
     // validation
